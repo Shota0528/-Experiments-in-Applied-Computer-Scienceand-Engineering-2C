@@ -54,7 +54,7 @@ def serch():
     name=["Room 115", "Room 621", "Room 111", "WorkLab"]
     scores = []
     # データベースに接続する
-    context = mysql.connector.connect(user="app", password="Abcde123")
+    context = mysql.connector.connect(user="", password="")
     cursor = context.cursor()       
     # データベースから値を取得するSQLを実行する
     # place0

@@ -20,7 +20,7 @@ def on_message(client, userdata, msg):
         eCO2 = data["eCO2"]
         
         # データベースに接続する
-        context = mysql.connector.connect(user="app", password="Abcde123")
+        context = mysql.connector.connect(user="", password="")
         cursor = context.cursor()       
         
         # JSONから取得した値を使用してSQLを実行する
