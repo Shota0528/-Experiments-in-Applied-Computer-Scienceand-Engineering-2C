@@ -1,0 +1,23 @@
+#place0, #place1, #place2, #place3{
+    float: left;
+}
+
+#place1, #place3{
+    margin-left: 20px;
+}
+
+#place2, #place3{
+    margin-top: 20px;
+}
+
+#place2{
+    clear: both;
+}
+
+th{
+    background-color: #00bfff;
+}
+
+td{
+    background-color: #afeeee;
+}

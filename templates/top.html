@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Data</title>
+    <link rel="stylesheet" href="../static/top.css">
+</head>
+    <body>
+        <div id="place0">
+            <span>場所 : {{name[0]}}, </span>
+            <span>スコア : {{score[0]}}</span>
+            <br>
+            <div id="table1">
+                <table border="1">
+                    <tr>
+                        <th>Type</th>
+                        <th>Value</th>
+                        <th>Time</th>
+                    </tr>
+                    {% for item in items0 %}
+                    <tr>
+                        <td>{{item[1]}}</td>
+                        <td>{{item[2]}}</td>
+                        <td>{{item[3]}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+        
+        <div id="place1">
+            <span>場所 : {{name[1]}}, </span>
+            <span>スコア : {{score[1]}}</span>
+            <br>
+            <div id="table1">
+                <table border="1">
+                    <tr>
+                        <th>Type</th>
+                        <th>Value</th>
+                        <th>Time</th>
+                    </tr>
+                    {% for item in items1 %}
+                    <tr>
+                        <td>{{item[1]}}</td>
+                        <td>{{item[2]}}</td>
+                        <td>{{item[3]}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="place2">
+            <span>場所 : {{name[2]}}, </span>
+            <span>スコア : {{score[2]}}</span>
+            <br>
+            <div id="table1">
+                <table border="1">
+                    <tr>
+                        <th>Type</th>
+                        <th>Value</th>
+                        <th>Time</th>
+                    </tr>
+                    {% for item in items2 %}
+                    <tr>
+                        <td>{{item[1]}}</td>
+                        <td>{{item[2]}}</td>
+                        <td>{{item[3]}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <div id="place3">
+            <span>場所 : {{name[3]}}, </span>
+            <span>スコア : {{score[3]}}</span>
+            <br>
+            <div id="table1">
+                <table border="1">
+                    <tr>
+                        <th>Type</th>
+                        <th>Value</th>
+                        <th>Time</th>
+                    </tr>
+                    {% for item in items3 %}
+                    <tr>
+                        <td>{{item[1]}}</td>
+                        <td>{{item[2]}}</td>
+                        <td>{{item[3]}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
