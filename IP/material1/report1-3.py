@@ -32,7 +32,7 @@ for i in range(4):
 
     #Calculate SSIM with OpenCV(RGB)
     SSIM_opencv, _ = cv2.quality.QualitySSIM_compute(img, img2)
-    print("    SSIM OpenCV (RGB Average):" + str((SSIM_opencv[0] + SSIM_opencv[1] + SSIM_opencv[2]) / 3))
+    print("    MSSIM OpenCV (RGB Average):" + str((SSIM_opencv[0] + SSIM_opencv[1] + SSIM_opencv[2]) / 3))
 
     cv2.imwrite("report1-3-" + str(i+1) + ".jpg", img2)
     
